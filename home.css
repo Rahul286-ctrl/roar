@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap");
+
+body,html{
+	height: 100%
+}
+body{
+
+    background: -webkit-linear-gradient(left, #93B874, #C9DCB9); 
+    background: -o-linear-gradient(right, #93B874, #C9DCB9);
+    background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
+    background: linear-gradient(to right, #93B874, #87CEEB); 
+    background-color: #93B874; 
+    overflow: hidden;
+}
+
+
+#centeredDiv {
+ position: fixed;
+ background-color: orange;
+ /*border:2px solid white;*/
+
+ width: 100%;
+ height: 20%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#main{
+ position:sticky;
+ 
+ 
+/* border:2px solid white;*/
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ overflow-x:hidden;
+ 
+ 
+}
+#bdiv{
+ position: relative;
+ 
+/* border:2px solid white;*/
+  left:40%;
+  top:5%;
+  width:40%;
+  height:100%;
+
+ 
+}
+ul {
+position:relative;
+left: 40%;
+top: 30%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:30%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: red;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width:30 %;
+  top:10%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #0000A0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+#imdiv{
+ position: absolute;
+ left:40%;
+ top:30%;
+ float:right;
+ width: 50%;
+ height: 52%;
+ transform: translate(-50%,-50%);
+}
+#img1{
+	border: 2px solid black;
+	box-sizing: border-box;
+	border-radius:100px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 2s;
+  cursor: pointer;
+}
+h1{
+	position:relative;
+	left:14%;
+	top:-60%;
+	box-sizing: border-box;
+	
+	font-family: 'Cinzel Decorative', cursive; 
+}
+
+
+#img2
+{
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	width:20%;
+	height: 40%;
+	box-sizing: border-box;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(-10deg);
+}
+#caption{
+    position: absolute;
+    left: 12%;
+    top:71%;
+    transform: rotate(-10deg);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-family: 'Cinzel Decorative', cursive; 
+}
+
+#img3
+{
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	width:20%;
+	height: 40%;
+	box-sizing: border-box;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(-10deg);
+}
+#caption2{
+    position: absolute;
+    left: 44%;
+    top:71%;
+    transform: rotate(-10deg);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-family: 'Cinzel Decorative', cursive; 
+}
+#img4
+{
+	position: absolute;
+	left: 70%;
+	top: 30%;
+	width:20%;
+	height: 40%;
+	box-sizing: border-box;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(-10deg);
+}
+#caption3{
+    position: absolute;
+    left: 73%;
+    top:71%;
+    transform: rotate(-10deg);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-family: 'Cinzel Decorative', cursive; 
+}
+@media screen and (max-width: 600px) {
+  h1{
+  position:relative;
+  left:14%;
+  top:-40%;
+}
+  
