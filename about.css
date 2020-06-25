@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet");
+body{
+
+    background: -webkit-linear-gradient(left, #93B874, #C9DCB9); 
+    background: -o-linear-gradient(right, #93B874, #C9DCB9);
+    background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
+    background: linear-gradient(to right, white,green); 
+    background-color: #93B874; 
+    overflow: hidden;
+}
+h1,h2{
+	font-family: 'Piedra', cursive;
+}
+p,li{
+	font-size: 1.1em;
+	font-family: 'Piedra', cursive;
+}
